@@ -1,5 +1,5 @@
 #include<stdio.h>
-   float main(){
+   int main(){
    float centigrade;
    float fahrenheit;
 
@@ -11,6 +11,7 @@
    printf("fahrenheit=");
    printf("%f",fahrenheit);
 
+    return 0;
 
 
 
