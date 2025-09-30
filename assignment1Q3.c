@@ -26,5 +26,6 @@ int main(){
     printf("\nDistance in inches = %f", inches);
     printf("\nDistance in centimeters = %f", centimeters);
 
+return 0;
 
 }
