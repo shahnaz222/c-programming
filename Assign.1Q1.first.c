@@ -14,4 +14,5 @@ float main()
 
     printf("%f",perimeter);
     printf("%f",area);
+return 0;
 }
