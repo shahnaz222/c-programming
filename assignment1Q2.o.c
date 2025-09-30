@@ -15,6 +15,7 @@
   gross_salary=basic_salary+dearness_allowance+houserent_allowance;
 
   printf("Gross_salary of Ramesh=%2f\n",gross_salary);
+return 0;
 
 
   }
