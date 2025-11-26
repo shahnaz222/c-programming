@@ -2,12 +2,14 @@
 int main()
 {
     char a;
-    a='b';
-    int *p=&a;
+   char*p;
+   p=&a;
 
-    printf(" before increment: %p \n" ,&a);
-    (*p)++;
-    printf(" after increment: %p",&a);
+    printf(" before increment: ");
+    scanf("%c",&a);
+
+    *p=*p+1;
+    printf(" after increment: %c",*p);
     return 0;
 }
 
